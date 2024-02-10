@@ -3,82 +3,82 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+@inproceedings{long2022retrieval,
+  abbr={CVPR},
+  title={Retrieval Augmented Classification for Long-Tail Visual Recognition},
+  author={Long, Alexander and Yin, Wei and Ajanthan, Thalaiyasingam and Nguyen, Vu and Purkait, Pulak and Garg, Ravi and Blair, Alan and Shen, Chunhua and van den Hengel, Anton},
+  booktitle={Proceedings of the IEEE/CVF conference on Computer Vision and Pattern Recognition},
+  pages={6959--6969},
+  year={2022},
+  preview={RAC.png},
+  selected={true},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  abstract={We introduce Retrieval Augmented Classification (RAC), a generic approach to augmenting standard image classification pipelines with an explicit retrieval module. RAC consists of a standard base image encoder fused with a parallel retrieval branch that queries a non-parametric external memory of pre-encoded images and associated text snippets. We apply RAC to the problem of long-tail classification and demonstrate a significant improvement over previous state-of-the-art on Places365-LT and iNaturalist-2018 (14.5% and 6.7% respectively), despite using only the training datasets themselves as the external information source. We demonstrate that RAC's retrieval module, without prompting, learns a high level of accuracy on tail classes. This, in turn, frees the base encoder to focus on common classes, and improve its performance thereon. RAC represents an alternative approach to utilizing large, pretrained models without requiring fine-tuning, as well as a first step towards more effectively making use of external memory within common computer vision architectures.},
+  url={https://arxiv.org/abs/2202.11233}
+
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{long2023modality,
+  abbr={ICLR 2023 (ME-FoMO)},
+  title={Modality-Aware Adaptation of Contrastive Language-Image Models},
+  author={Long, Alexander and Ajanthan, Thalaiyasingam and van den Hengel, Anton},
+  booktitle={ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models},
+  year={2023},
+  selected={true},
+  preview={modgap.png},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  url={https://openreview.net/forum?id=KZut5N7waZ},
+  abstract={Despite their high levels of robustness, Contrastive Language-Image Models (CLIP) still require some form of downstream adaptation when applied to tasks sufficiently out-of-domain with respect to their training set. Recent methods propose light-weight adapters on the model features, primarily focused on the few-shot domain. All such approaches however, require per-task hyperparameter tuning which necessitates access to a validation set; limiting their applicability in practice. As an alternative, we propose Modality Aware Tangent-space Retrieval (MATeR), a training-free, interpretable adapter which outperforms all recent methods when per-task hyperparameter tuning is prohibited. MATeR considers the manifold formed by CLIP embeddings when incorporating out of domain few-shot class information and its predictions are invariant to the modality gap; representing the first approach that considers the geometric structure of the CLIP latent space to inform downstream task adaptation. Additionally, we demonstrate a variant of MATeR has the ability to significantly increase zero-shot accuracy with only a handful of unlabelled images, much lower than the number of classes.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+
+@article{kaboli2015humanoids,
+  title={Humanoids learn touch modalities identification via multi-modal robotic skin and robust tactile descriptors},
+  author={Kaboli, Mohsen and Long, Alexander and Cheng, Gordon},
+  journal={Advanced Robotics},
+  volume={29},
+  number={21},
+  pages={1411--1425},
+  year={2015},
+  publisher={Taylor \& Francis},
+  bibtex_show={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{long2022fast,
+  abbr={AAAI 2022},
+  title={Fast and Data Efficient Reinforcement Learning from Pixels via Non-parametric Value Approximation},
+  author={Long, Alexander and Blair, Alan and van Hoof, Herke},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={7},
+  pages={7620--7627},
+  year={2022},
+  bibtex_show={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{long2019multi,
+  title={Multi-hop reading comprehension via deep reinforcement learning based document traversal},
+  author={Long, Alex and Mason, Joel and Blair, Alan and Wang, Wei},
+  journal={arXiv preprint arXiv:1905.09438},
+  year={2019},
+  bibtex_show={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{silva2024lipat,
+  abbr={WACV 2024},
+  title={LipAT: Beyond style transfer for controllable neural simulation of Lipstick using cosmetic attributes},
+  author={Silva, Amila and Moskvyak, Olga and Long, Alexander and Garg, Ravi and Gould, Stephen and Avraham, Gil and van den Hengel, Anton},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={8046--8055},
+  year={2024},
+  bibtex_show={true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@phdthesis{long2022external,
+  title={External Nonparametric Memory in Deep Learning},
+  author={Long, Alexander},
+  year={2022},
+  school={UNSW Sydney},
+  bibtex_show={true}
 }
+
